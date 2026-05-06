@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_FG_PROVIDER_C369TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_FG_PROVIDER_C369</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_FM_PROV_SUBSTRACT_C369</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Numeric Functions</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>NUM1</PARAMETER>
+       <TYP>BRF_COLUMN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM2</PARAMETER>
+       <TYP>BRF_COLUMN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RESULT</PARAMETER>
+       <TYP>BRF_COLUMN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Column Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Column Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Column Number</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FM_PROV_SUM_C369</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Numeric Functions</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>NUM1</PARAMETER>
+       <TYP>BRF_COLUMN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM2</PARAMETER>
+       <TYP>BRF_COLUMN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RESULT</PARAMETER>
+       <TYP>BRF_COLUMN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Column Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Column Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Column Number</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

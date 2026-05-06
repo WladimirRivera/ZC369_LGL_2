@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_FG_SOAP_WS_C369TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_FG_SOAP_WS_C369</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_FM_WS_SIGNATURE_C369</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FM Signature</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CARRID</PARAMETER>
+       <TYP>S_CARRID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CONNID</PARAMETER>
+       <TYP>S_CONN_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>FLIGHTS</PARAMETER>
+       <TYP>SFLIGHT_TAB2</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CONNID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flight Connection Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLIGHTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Internal Structure for Table sflight</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME_M>
+     <HASH_ID>4CBDCCA7A1B704A3F1D79DDC7E633802D36164AC</HASH_ID>
+     <ID>&lt;message&gt; ZFmCheckFlightC369Response urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>ZFmCheckFlightC369Response</IFR_NAME>
+     <IFR_NSPCE>urn:sap-com:document:sap:soap:functions:mc-style</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap-com:document:sap:soap:functions:mc-style</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZWSC369</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:sap-com:document:sap:soap:functions:mc-style</X-ML_NSPCE>
+     <X-ML_NAME>ZFmCheckFlightC369Response</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AVAILABLE_FLIGHT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AVAILABLE_FLIGHT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZWSC369ZTT_FLIGHT_C369</OBJ_NAME_R>
+     <ID>&lt;element&gt; AvailableFlight &lt;message&gt; ZFmCheckFlightC369Response urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>AvailableFlight</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AVAILABLE_FLIGHT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DETAIL_FLIGHT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DETAIL_FLIGHT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZWSC369ZSTR_AIRLINE_INFO_C369</OBJ_NAME_R>
+     <ID>&lt;element&gt; DetailFlight &lt;message&gt; ZFmCheckFlightC369Response urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>DetailFlight</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DETAIL_FLIGHT</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MSG_RETURN</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MSG_RETURN</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZWSC369STRING</OBJ_NAME_R>
+     <ID>&lt;element&gt; MsgReturn &lt;message&gt; ZFmCheckFlightC369Response urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>MsgReturn</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MSG_RETURN</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PAYMENTSUM</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PAYMENTSUM</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZWSC369CURR17_2</OBJ_NAME_R>
+     <ID>&lt;element&gt; Paymentsum &lt;message&gt; ZFmCheckFlightC369Response urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Paymentsum</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PAYMENTSUM</R3_NAME>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZWSC369ZFM_CHECK_FLIGHT_C369RE</OBJ_NAME2>
+     <ID>&lt;message&gt; ZFmCheckFlightC369Response urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>ZFmCheckFlightC369Response</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZWSC369ZFM_CHECK_FLIGHT_C369RE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

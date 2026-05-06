@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_WS_C369TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_WS_C369</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_FM_CHECK_FLIGHT_C369</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FM to get flights</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CARRID</PARAMETER>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CONNID</PARAMETER>
+       <TYP>S_CONN_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FLDATE</PARAMETER>
+       <TYP>S_DATE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PAYMENTSUM</PARAMETER>
+       <TYP>S_SUM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>DETAIL_FLIGHT</PARAMETER>
+       <TYP>ZSTR_AIRLINE_INFO_C369</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>MSG_RETURN</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>AVAILABLE_FLIGHT</PARAMETER>
+       <TYP>ZTT_FLIGHT_C369</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CONNID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flight Connection Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLDATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flight date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PAYMENTSUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total of current bookings</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DETAIL_FLIGHT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MSG_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>AVAILABLE_FLIGHT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline Structure</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
